@@ -1,0 +1,127 @@
+:root{
+    --color-prim:hsl(223, 47%, 23%);
+    --fontt:'Red Hat Display', sans-serif;
+    --title: hsl(223, 47%, 23%);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: var(--fontt);
+}
+body{
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: aliceblue;
+    background-size: 100% 75%;
+
+    
+}
+
+
+.card{
+    background-color: #fff;
+    margin: 0 auto;
+    width: 325px;
+    height: 520px;
+    margin-top: 80px; 
+    border-radius: 20px;
+}
+
+.card__img{
+    background-image: url(../images/illustration-hero.svg);
+    background-size:100% 175px;
+    background-repeat: no-repeat;
+    height: 200px;
+    border-radius: inherit;
+    
+}
+.card__title{
+    text-align: center;
+    color:var(--title);
+    padding-bottom: 7px;
+    font-family: var(--fontt);
+    font-weight: 900;
+    
+}
+.card__paragrap{
+    text-align: center;   
+    padding: 0 25px 20px 25px;
+    font-family: var(--fontt);
+    color: var(--color-prim);
+    font-weight: 400;
+    font-size: 16px;
+}
+.card__info{
+ display: flex;
+ align-content: center;
+ width: 275px;
+ height: 75px;
+ margin: 0 auto;
+ background-color: hsla(224, 23%, 55%, 0.149);
+ border-radius: 10px;
+ font-family: var(--fontt);
+
+}
+.card__info > p{
+    color: var(--color-prim);
+    font-weight:400;
+
+}
+img{
+    width: 50px;
+    height: 50px; 
+    display: block;
+    margin: 0 auto;
+    margin-top: 12.5px;
+   
+    
+}
+
+.lol{
+    color: var(--title);
+    font-weight: 700;
+    
+
+}
+.card___cta--lado{
+   
+    align-self: center;
+    padding-right: 12px;
+
+}
+.card__info--a{
+    width:100px;
+    height: 100%;
+    display: block;
+    padding-top: 16px;
+    background-color: transparent;
+}
+
+.card__cta{
+    display: block;
+    background-color: hsl(224, 84%, 36%);
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 13px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 10px;
+    color:#Fff ;
+    font-weight: 900;
+}
+
+.card__cta--si{
+    box-shadow:0  12px 10px rgba(0, 0, 0, 0.2) ;
+    margin-top: 20px;
+    border-top: 1px solid transparent;
+    
+}
+.card__cta--no{
+    background-color: transparent;
+    color:var(--color-prim);
+    font-weight: 400;
+    margin-top: 10px;
+}
+
